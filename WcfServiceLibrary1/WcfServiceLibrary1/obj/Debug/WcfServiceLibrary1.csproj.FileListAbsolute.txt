@@ -1,0 +1,12 @@
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.AssemblyReference.cache
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\EntityFramework.dll
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\EntityFramework.xml
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WIN\Documents\Sem3\3.Win_Azure\WcfServiceLibrary1\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csproj.CopyComplete

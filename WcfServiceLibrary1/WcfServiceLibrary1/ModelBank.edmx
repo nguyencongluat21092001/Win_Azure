@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Bankc2009eModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="BankAccounts">
+          <Key>
+            <PropertyRef Name="accno" />
+          </Key>
+          <Property Name="accno" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="accfname" Type="varchar" MaxLength="50" />
+          <Property Name="acclname" Type="varchar" MaxLength="50" />
+          <Property Name="acccontact" Type="varchar" MaxLength="50" />
+          <Property Name="accamount" Type="float" />
+          <Property Name="accactive" Type="int" />
+        </EntityType>
+        <EntityContainer Name="Bankc2009eModelStoreContainer">
+          <EntitySet Name="BankAccounts" EntityType="Self.BankAccounts" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Bankc2009eModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="BankAccount">
+          <Key>
+            <PropertyRef Name="accno" />
+          </Key>
+          <Property Name="accno" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="accfname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="acclname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="acccontact" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="accamount" Type="Double" />
+          <Property Name="accactive" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="Bankc2009eEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="BankAccounts" EntityType="Self.BankAccount" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Bankc2009eModelStoreContainer" CdmEntityContainer="Bankc2009eEntities">
+          <EntitySetMapping Name="BankAccounts">
+            <EntityTypeMapping TypeName="Bankc2009eModel.BankAccount">
+              <MappingFragment StoreEntitySet="BankAccounts">
+                <ScalarProperty Name="accno" ColumnName="accno" />
+                <ScalarProperty Name="accfname" ColumnName="accfname" />
+                <ScalarProperty Name="acclname" ColumnName="acclname" />
+                <ScalarProperty Name="acccontact" ColumnName="acccontact" />
+                <ScalarProperty Name="accamount" ColumnName="accamount" />
+                <ScalarProperty Name="accactive" ColumnName="accactive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

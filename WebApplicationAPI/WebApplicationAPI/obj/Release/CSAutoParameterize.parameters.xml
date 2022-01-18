@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="sem32009eEntities-Web.config Connection String" description="sem32009eEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.ModelStudent.csdl|res://*/Models.ModelStudent.ssdl|res://*/Models.ModelStudent.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=tcp:serverc2009esem3.database.windows.net,1433;initial catalog=sem32009e;user id=c2009e;password=C@2009eClass;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\WIN\\Documents\\Sem3\\3\.Win_Azure\\WebApplicationAPI\\WebApplicationAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='sem32009eEntities']/@connectionString" />
+  </parameter>
+</parameters>

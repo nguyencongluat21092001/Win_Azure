@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Bankc2009eModelStoreContainer" CdmEntityContainer="Bankc2009eEntities">
+    <EntitySetMapping Name="BankAccounts">
+      <EntityTypeMapping TypeName="Bankc2009eModel.BankAccount">
+        <MappingFragment StoreEntitySet="BankAccounts">
+          <ScalarProperty Name="accno" ColumnName="accno" />
+          <ScalarProperty Name="accfname" ColumnName="accfname" />
+          <ScalarProperty Name="acclname" ColumnName="acclname" />
+          <ScalarProperty Name="acccontact" ColumnName="acccontact" />
+          <ScalarProperty Name="accamount" ColumnName="accamount" />
+          <ScalarProperty Name="accactive" ColumnName="accactive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
